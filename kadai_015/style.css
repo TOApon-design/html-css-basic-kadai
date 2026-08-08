@@ -1,8 +1,8 @@
-#parent h1, p, h2{
+#parent p, h2{
     font-family: "Arial", "Meiryo", sans-serif;
     text-align: center;
 }
-#font-size title, meta, h1, h2, p{
+html {
     font-size: 20px;
 }
 .blue {
@@ -19,7 +19,8 @@
     font-weight: 400;
     font-style: normal;
     font-size: 2rem;
-    letter-spacing: 0.2em;
+    letter-spacing: 1.2em;
     text-shadow: 1px 1px 2px gray;
-    border-bottom: solid 3px rgb(115, 115, 203);
+    border-bottom: solid 3px rgb(115, 115, 114);
+    text-align: center;
 }
