@@ -1,8 +1,9 @@
 .parent {
-    height: 300px;
+    width: auto;
     background-color: yellow;
 }
 .child {
-    height: 150px;
+    width: 80%;
+    max-width: 600px;
     background-color: orange;
 }
